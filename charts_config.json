@@ -1,0 +1,151 @@
+{
+  "women": {
+    "titles_dict": {
+      "anc_4_visits": "Woman attended 4+ times by any provider: ",
+      "anc_3_components": "Woman with 3 components of ANC tested at least once: ",
+      "inst_delivery": "Birth in a health facility: ",
+      "caesarean_del": "Caesarean birth: ",
+      "pnc_mother": "Mother received post-partum care (2 days): ",
+      "low_bw": "Baby had low birthweight (< 2.5kg): ",
+      "early_bf": "Initiated breastfeeding within 1 hour: ",
+      "iron_supp": "Woman consumed iron-containing supplements: "
+    },
+    "ind_vars_dict": {
+      "residence": "Urban vs. Rural",
+      "region": "Regions",
+      "mother_edu": "Woman's Education",
+      "wealth_q": "Wealth Quintiles",
+      "eth_hoh": "Ethnicity",
+      "elderly_hoh": "Age Head of HH",
+      "sex_hoh": "Sex Head of HH"
+    },
+    "hue_order_dict": {
+      "residence": ["Urban", "Rural"],
+      "region": ["Phnom Penh", "Plain", "Great Lake", "Coastal", "Plateau"],
+      "mother_edu": [
+        "Mother Edu: Higher",
+        "Mother Edu: Secondary",
+        "Mother Edu: Primary",
+        "Mother Edu: None/ECE"
+      ],
+      "wealth_q": ["Richest", "Rich", "Middle", "Poor", "Poorest"],
+      "eth_hoh": [
+        "Lao-Tai",
+        "Mon-Khmer",
+        "Hmong-Mien",
+        "Chinese-Tibetan",
+        "Other, DK, Missing"
+      ],
+      "elderly_hoh": ["Elderly HoH: YES", "Elderly HoH: NO"],
+      "sex_hoh": ["Male", "Female"]
+    },
+    "y_limits": {
+      "anc_4_visits": [0, 100],
+      "anc_3_components": [0, 100],
+      "inst_delivery": [0, 100],
+      "caesarean_del": [0, 50],
+      "pnc_mother": [0, 100],
+      "low_bw": [0, 25],
+      "early_bf": [0, 100],
+      "iron_supp": [0, 100]
+    }
+  },
+  "children": {
+    "titles_dict": {
+      "excl_bf": "Children 0-5 months exclusively breastfed: ",
+      "cont_1223_bf": "Children 12-23 months still breastfeeding: ",
+      "mdd_ch": "Children 6-23 months with minimum dietary diversity (MDD): ",
+      "mmf_ch": "Children 6-23 months with minimum meal frequency (MFF): ",
+      "mad_ch": "Children 6-23 months with minimum acceptable diet (MAD): "
+    },
+    "ind_vars_dict": {
+      "sex_ch": "Child Sex",
+      "residence": "Urban vs. Rural",
+      "region": "Regions",
+      "mother_edu": "Mother's Education",
+      "wealth_q": "Wealth Quintiles",
+      "eth_hoh": "Ethnicity",
+      "elderly_hoh": "Age Head of HH",
+      "sex_hoh": "Sex Head of HH"
+    },
+    "hue_order_dict": {
+      "sex_ch": ["CH Sex: Male", "CH Sex: Female"],
+      "residence": ["Urban", "Rural"],
+      "region": ["Phnom Penh", "Plain", "Great Lake", "Coastal", "Plateau"],
+      "mother_edu": [
+        "Mother Edu: Higher",
+        "Mother Edu: Secondary",
+        "Mother Edu: Primary",
+        "Mother Edu: None/ECE"
+      ],
+      "wealth_q": ["Richest", "Rich", "Middle", "Poor", "Poorest"],
+      "eth_hoh": [
+        "Lao-Tai",
+        "Mon-Khmer",
+        "Hmong-Mien",
+        "Chinese-Tibetan",
+        "Other, DK, Missing"
+      ],
+      "elderly_hoh": ["Elderly HoH: YES", "Elderly HoH: NO"],
+      "sex_hoh": ["Male", "Female"]
+    },
+    "y_limits": {
+      "excl_bf": [0, 100],
+      "cont_1223_bf": [0, 100],
+      "mdd_ch": [0, 100],
+      "mmf_ch": [0, 100],
+      "mad_ch": [0, 100],
+      "stunting_ch": [0, 70],
+      "wasting_ch": [0, 30],
+      "overweight_ch": [0, 10]
+    }
+  },
+  "anthro": {
+    "titles_dict": {
+      "stunting_ch": "Stunting among children 0-59 months (HAZ < -2SD WHO standard): ",
+      "wasting_ch": "Wasting among children 0-59 months (WHZ < -2SD WHO standard): ",
+      "overweight_ch": "Overweight among children 0-59 months (WHZ > 2SD WHO standard): "
+    },
+    "ind_vars_dict": {
+      "sex_ch": "Child Sex",
+      "residence": "Urban vs. Rural",
+      "region": "Regions",
+      "mother_edu": "Mother's Education",
+      "wealth_q": "Wealth Quintiles",
+      "eth_hoh": "Ethnicity",
+      "elderly_hoh": "Age Head of HH",
+      "sex_hoh": "Sex Head of HH"
+    },
+    "hue_order_dict": {
+      "sex_ch": ["CH Sex: Male", "CH Sex: Female"],
+      "residence": ["Urban", "Rural"],
+      "region": ["Phnom Penh", "Plain", "Great Lake", "Coastal", "Plateau"],
+      "mother_edu": [
+        "Mother Edu: Higher",
+        "Mother Edu: Secondary",
+        "Mother Edu: Primary",
+        "Mother Edu: None/ECE"
+      ],
+      "wealth_q": ["Richest", "Rich", "Middle", "Poor", "Poorest"],
+      "eth_hoh": [
+        "Lao-Tai",
+        "Mon-Khmer",
+        "Hmong-Mien",
+        "Chinese-Tibetan",
+        "Other, DK, Missing"
+      ],
+      "elderly_hoh": ["Elderly HoH: YES", "Elderly HoH: NO"],
+      "sex_hoh": ["Male", "Female"]
+    },
+    "y_limits": {
+      "excl_bf": [0, 100],
+      "cont_1223_bf": [0, 100],
+      "mdd_ch": [0, 100],
+      "mmf_ch": [0, 100],
+      "mad_ch": [0, 100],
+      "stunting_ch": [0, 70],
+      "wasting_ch": [0, 30],
+      "overweight_ch": [0, 10]
+    }
+  }
+}

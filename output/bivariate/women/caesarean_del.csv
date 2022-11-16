@@ -1,0 +1,25 @@
+,int_2014_Urban,int_2014_Coastal,int_2014_None_Primary,int_2014_Richest,int_2014_Elderly HoH: NO,int_2014_Male
+residence,"[c0    8.21314
+Name: coef, dtype: float64, c0    5.391573
+Name: t, dtype: float64, c0    7.246426e-08
+Name: P>|t|, dtype: float64]",,,,,
+region,,"[c0   -6.555688
+Name: coef, dtype: float64, c0   -1.776844
+Name: t, dtype: float64, c0    0.075916
+Name: P>|t|, dtype: float64]",,,,
+mother_edu_biv,,,"[c0   -3.208767
+Name: coef, dtype: float64, c0   -2.470734
+Name: t, dtype: float64, c0    0.013511
+Name: P>|t|, dtype: float64]",,,
+wealth_q,,,,"[c0    10.90443
+Name: coef, dtype: float64, c0    6.000395
+Name: t, dtype: float64, c0    2.229082e-09
+Name: P>|t|, dtype: float64]",,
+elderly_hoh,,,,,"[c0   -4.540628
+Name: coef, dtype: float64, c0   -2.842092
+Name: t, dtype: float64, c0    0.004497
+Name: P>|t|, dtype: float64]",
+sex_hoh,,,,,,"[c0   -0.191224
+Name: coef, dtype: float64, c0   -0.144858
+Name: t, dtype: float64, c0    0.884828
+Name: P>|t|, dtype: float64]"
